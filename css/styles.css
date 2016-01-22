@@ -1,0 +1,89 @@
+﻿/*
+	Author: Carson Rhodes
+	Created: Jan 8, 2016
+	Updated: Jan 8, 2016
+*/
+
+body
+{
+	width:90%;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	/*shorthand for margin*/
+	margin:20px auto;
+	
+	background-color:#404040;
+	
+	/*a is for the alpha layer. 0 through 1 */
+	color:rgba(255, 255, 204, .75);
+	
+	/*goes to the other if not on system. multi words need quotes*/
+	font-family:Courier, "Times New Roman", serif;
+	
+	/*units in px for pixels, em a decimal percentage of parent container ,rem is a root based font from computer*/
+	font-size:16px;
+	
+	/* should be about 1.5 times the font size to look good.*/
+	line-height:1.5em;	
+}
+
+h1{
+	text-align:center;
+	font-style:italic;
+	
+	/*from 100 to 900, or normal bold bolder*/
+	font-weight:normal;
+	
+	/* lots of settings. not very good*/
+	text-decoration:underline;
+	
+	/* better. is the width of the parrent.*/
+	border-bottom-width:2px;
+	border-bottom-style:dashed;
+	border-bottom-color:#365826;
+	
+	padding-bottom:.5em;
+}
+	
+a{
+		color:green;
+		font-weight:bold;
+		text-decoration:none;
+}
+
+/* when you mouse over it.*/
+a:hover{
+	text-decoration:underline;
+	cursor:crosshair;
+}
+
+/* only change child.*/
+li a{
+	
+}
+
+section{
+	border:1px solid black;
+}
+
+button{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

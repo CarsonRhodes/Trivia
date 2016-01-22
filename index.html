@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html lang="en">
+<!-- 
+	Author: Carson Rhodes
+     Created: Jan 21, 2016
+     Updated: Jan 21, 2016
+-->
+
+<!-- ========== HEAD ========== -->
+	<head>
+		<title>Trivia Game</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Carson Rhodes">
+		<meta name="description" content="This is a web test.">
+		<meta name="keywords" content="carson, web, test, practice, example">
+		<link href="css/grid.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script src="js/chkQuiz.js"></script>
+	</head>
+<!-- ========== END HEAD ========== -->
+
+
+<!-- ========== BODY ========== -->
+	<body class="grid">
+		<header class="group">
+			<h1 class="col col-100">My Trivia Game</h1>
+			<p class="col col-100">Read each question carfully, and pick the best possible answer.</p>
+		</header>
+		
+		<main class="group">
+			<form class="group">
+				<section class="col col-100">
+					<p class="col col-100">1 ) What color does red and green light make?</p>
+					<input class="col col-20" type="radio" name="q1" id="q1-a" value="correct"><label class="col col-80" for="q1-a">A ) yellow</label>
+					<input class="col col-20" type="radio" name="q1" id="q1-b" value="wrong"><label class="col col-80" for="q1-b">B ) purple</label>
+					<input class="col col-20" type="radio" name="q1" id="q1-c" value="wrong"><label class="col col-80" for="q1-c">C ) orange</label>
+					<input class="col col-20" type="radio" name="q1" id="q1-d" value="wrong"><label class="col col-80" for="q1-d">D ) aqua</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">2 ) How many legs does a cow have?</p>
+					<input class="col col-20" type="radio" name="q2" id="q2-a" value="wrong"><label class="col col-80" for="q2-a">A ) 3</label>
+					<input class="col col-20" type="radio" name="q2" id="q2-b" value="correct"><label class="col col-80" for="q2-b">B ) 4</label>
+					<input class="col col-20" type="radio" name="q2" id="q2-c" value="wrong"><label class="col col-80" for="q2-c">C ) 5</label>
+					<input class="col col-20" type="radio" name="q2" id="q2-d" value="wrong"><label class="col col-80" for="q2-d">D ) 6</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">3 ) How many eyes does a spider have?</p>
+					<input class="col col-20" type="radio" name="q3" id="q3-a" value="wrong"><label class="col col-80" for="q3-a">A ) 2</label>
+					<input class="col col-20" type="radio" name="q3" id="q3-b" value="wrong"><label class="col col-80" for="q3-b">B ) 6</label>
+					<input class="col col-20" type="radio" name="q3" id="q3-c" value="correct"><label class="col col-80" for="q3-c">C ) 8</label>
+					<input class="col col-20" type="radio" name="q3" id="q3-d" value="wrong"><label class="col col-80" for="q3-d">D ) 10</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">4 ) Can you answer this question correctly?</p>
+					<input class="col col-20" type="radio" name="q4" id="q4-a" value="wrong"><label class="col col-80" for="q4-a">A ) no</label>
+					<input class="col col-20" type="radio" name="q4" id="q4-b" value="wrong"><label class="col col-80" for="q4-b">B ) almost</label>
+					<input class="col col-20" type="radio" name="q4" id="q4-c" value="wrong"><label class="col col-80" for="q4-c">C ) maybe</label>
+					<input class="col col-20" type="radio" name="q4" id="q4-d" value="correct"><label class="col col-80" for="q4-d">D ) yes</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">5 ) What should you do if a T-Rex is chasing you?</p>
+					<input class="col col-20" type="radio" name="q5" id="q5-a" value="correct"><label class="col col-80" for="q5-a">A ) live</label>
+					<input class="col col-20" type="radio" name="q5" id="q5-b" value="wrong"><label class="col col-80" for="q5-b">B ) die</label>
+					<input class="col col-20" type="radio" name="q5" id="q5-c" value="wrong"><label class="col col-80" for="q5-c">C ) be dead</label>
+					<input class="col col-20" type="radio" name="q5" id="q5-d" value="wrong"><label class="col col-80" for="q5-d">D ) not live</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">6 ) How do you spell "keys"?</p>
+					<input class="col col-20" type="radio" name="q6" id="q6-a" value="wrong"><label class="col col-80" for="q6-a">A ) kees</label>
+					<input class="col col-20" type="radio" name="q6" id="q6-b" value="correct"><label class="col col-80" for="q6-b">B ) keys</label>
+					<input class="col col-20" type="radio" name="q6" id="q6-c" value="wrong"><label class="col col-80" for="q6-c">C ) keyes</label>
+					<input class="col col-20" type="radio" name="q6" id="q6-d" value="wrong"><label class="col col-80" for="q6-d">D ) cat</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">7 ) Click the right one.</p>
+					<input class="col col-20" type="radio" name="q7" id="q7-a" value="wrong"><label class="col col-80" for="q7-a">A ) CLICK HERE</label>
+					<input class="col col-20" type="radio" name="q7" id="q7-b" value="wrong"><label class="col col-80" for="q7-b">B ) the right 1</label>
+					<input class="col col-20" type="radio" name="q7" id="q7-c" value="correct"><label class="col col-80" for="q7-c">C ) the right one</label>
+					<input class="col col-20" type="radio" name="q7" id="q7-d" value="wrong"><label class="col col-80" for="q7-d">D ) right</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">8 ) What question number is this?</p>
+					<input class="col col-20" type="radio" name="q8" id="q8-a" value="wrong"><label class="col col-80" for="q8-a">A ) 1</label>
+					<input class="col col-20" type="radio" name="q8" id="q8-b" value="wrong"><label class="col col-80" for="q8-b">B ) 9</label>
+					<input class="col col-20" type="radio" name="q8" id="q8-c" value="wrong"><label class="col col-80" for="q8-c">C ) 4</label>
+					<input class="col col-20" type="radio" name="q8" id="q8-d" value="correct"><label class="col col-80" for="q8-d">D ) 8</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">9 ) Pick they right one.</p>
+					<input class="col col-20" type="radio" name="q9" id="q9-a" value="correct"><label class="col col-80" for="q9-a">A ) :)</label>
+					<input class="col col-20" type="radio" name="q9" id="q9-b" value="wrong"><label class="col col-80" for="q9-b">B ) :(</label>
+					<input class="col col-20" type="radio" name="q9" id="q9-c" value="wrong"><label class="col col-80" for="q9-c">C ) >:(</label>
+					<input class="col col-20" type="radio" name="q9" id="q9-d" value="wrong"><label class="col col-80" for="q9-d">D ) :[</label>
+				</section>
+				<section class="col col-100">
+					<p class="col col-100">10 ) Did you answer all of the questions right?</p>
+					<input class="col col-20" type="radio" name="q10" id="q10-a" value="wrong"><label class="col col-80" for="q10-a">A ) no</label>
+					<input class="col col-20" type="radio" name="q10" id="q10-b" value="correct"><label class="col col-80" for="q10-b">B ) yes</label>
+					<input class="col col-20" type="radio" name="q10" id="q10-c" value="wrong"><label class="col col-80" for="q10-c">C ) nahh</label>
+					<input class="col col-20" type="radio" name="q10" id="q10-d" value="wrong"><label class="col col-80" for="q10-d">D ) nope</label>
+				</section>
+				
+				<button type="submit" onclick="chkQuiz();">Submit</button>
+				
+			<form>
+		</main>
+		
+		<footer class="group">
+			<section class="col col-100">
+				<p>Copyright &copy; 2016 - Designed by <a href="emailto:crhodes3@students.tulsatech.edu">Carson Rhodes</a></p>
+			</section>
+		</footer>
+
+	</body>
+<!-- ========== END BODY ========== -->
+
+
+</html>
